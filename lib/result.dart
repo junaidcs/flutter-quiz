@@ -14,6 +14,9 @@ class Result extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(
+        // vertical center
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Text(
             resultText,
